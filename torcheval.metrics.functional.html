@@ -223,6 +223,10 @@
             
             
               <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="metric_example.html">Use Metrics in TorchEval</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="torcheval.metrics.html">Metrics</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Functional Metrics</a></li>
@@ -299,9 +303,9 @@
             <div role="main" class="main-content" itemscope="itemscope" itemtype="http://schema.org/Article">
              <article itemprop="articleBody" id="pytorch-article" class="pytorch-article">
               
-  <section id="functional-metrics">
-<h1>Functional Metrics<a class="headerlink" href="#functional-metrics" title="Permalink to this heading">¶</a></h1>
-<span class="target" id="module-torcheval.metrics.functional"></span><dl class="py function">
+  <section id="module-torcheval.metrics.functional">
+<span id="functional-metrics"></span><h1>Functional Metrics<a class="headerlink" href="#module-torcheval.metrics.functional" title="Permalink to this heading">¶</a></h1>
+<dl class="py function">
 <dt class="sig sig-object py" id="torcheval.metrics.functional.binary_accuracy">
 <span class="sig-prename descclassname"><span class="pre">torcheval.metrics.functional.</span></span><span class="sig-name descname"><span class="pre">binary_accuracy</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">input</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://pytorch.org/docs/stable/tensors.html#torch.Tensor" title="(in PyTorch v1.12)"><span class="pre">Tensor</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">target</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://pytorch.org/docs/stable/tensors.html#torch.Tensor" title="(in PyTorch v1.12)"><span class="pre">Tensor</span></a></span></em>, <em class="sig-param"><span class="o"><span class="pre">*</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">threshold</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">0.5</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference external" href="https://pytorch.org/docs/stable/tensors.html#torch.Tensor" title="(in PyTorch v1.12)"><span class="pre">Tensor</span></a></span></span><a class="headerlink" href="#torcheval.metrics.functional.binary_accuracy" title="Permalink to this definition">¶</a></dt>
 <dd><p>Compute binary accuracy score, which is the frequency of input matching target.
